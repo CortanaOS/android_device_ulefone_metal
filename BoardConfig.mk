@@ -30,7 +30,7 @@ include $(LOCAL_PATH)/board/*.mk
 TARGET_KMODULES := true
 COMMON_GLOBAL_CFLAGS += -DDISABLE_HW_ID_MATCH_CHECK
 
-TARGET_PREBUILT_KERNEL := device/ulefone/metal/prebuilt/Image.gz-dtb
+#TARGET_PREBUILT_KERNEL := device/ulefone/metal/prebuilt/Image.gz-dtb
 BOARD_CUSTOM_BOOTIMG := true
  
 #TARGET_USERIMAGES_SPARSE_EXT_DISABLED := false
