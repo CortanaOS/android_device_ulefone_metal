@@ -6,7 +6,7 @@ BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 androidboot.selinux=permissive
 BOARD_MKBOOTIMG_ARGS := --board 1469708408 --ramdisk_offset 0x03f88000 --tags_offset 0x0df88000
 
 # Kernel properties
-TARGET_KERNEL_SOURCE := kernel_Lucky76/metal
+TARGET_KERNEL_SOURCE := kernel/ulefone/metal
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CONFIG := wtk6753_65u_m0_Lucky76_defconfig
