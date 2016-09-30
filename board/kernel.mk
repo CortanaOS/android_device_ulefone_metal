@@ -9,8 +9,7 @@ BOARD_MKBOOTIMG_ARGS := --board 1469708408 --ramdisk_offset 0x03f88000 --tags_of
 TARGET_KERNEL_SOURCE := kernel/ulefone/metal
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_CONFIG := wtk6753_65u_m0_Lucky76_defconfig
-#TARGET_KERNEL_CONFIG := lucky76_metal_defconfig
+TARGET_KERNEL_CONFIG := wtk6753_65u_m0_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 
 #TARGET_PREBUILT_KERNEL := device/ulefone/metal/prebuilt/Image.gz-dtb
