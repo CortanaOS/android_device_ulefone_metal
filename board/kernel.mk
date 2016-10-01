@@ -11,7 +11,3 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CONFIG := wtk6753_65u_m0_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
-
-#TARGET_PREBUILT_KERNEL := device/ulefone/metal/prebuilt/Image.gz-dtb
-#BOARD_CUSTOM_BOOTIMG := true
-
